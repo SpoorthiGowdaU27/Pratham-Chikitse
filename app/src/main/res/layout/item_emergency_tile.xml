@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="13dp">
+
+        <!-- SEVERITY BADGE -->
+        <TextView
+            android:id="@+id/tv_severity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            android:paddingStart="7dp"
+            android:paddingEnd="7dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"/>
+
+        <!-- ICON -->
+        <TextView
+            android:id="@+id/tv_icon"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_below="@id/tv_severity"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:background="@drawable/bg_icon_circle"
+            android:layout_marginTop="4dp"/>
+
+        <!-- ENGLISH NAME -->
+        <TextView
+            android:id="@+id/tv_name_en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_icon"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/gray_dark"
+            android:layout_marginTop="8dp"/>
+
+        <!-- KANNADA NAME -->
+        <TextView
+            android:id="@+id/tv_name_kn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name_en"
+            android:textSize="12sp"
+            android:textColor="@color/gray_mid"
+            android:layout_marginTop="2dp"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

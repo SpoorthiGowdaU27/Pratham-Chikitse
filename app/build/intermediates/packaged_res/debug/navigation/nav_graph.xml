@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.pratham.chikitse.ui.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"
+        xmlns:tools="http://schemas.android.com/tools">
+        <action
+            android:id="@+id/action_homeFragment_to_stepFragment"
+            app:destination="@id/stepFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/stepFragment"
+        android:name="com.pratham.chikitse.ui.StepFragment"
+        android:label="Steps"
+        tools:layout="@layout/fragment_step"
+        xmlns:tools="http://schemas.android.com/tools">
+        <argument
+            android:name="emergencyId"
+            app:argType="integer"
+            android:defaultValue="0"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/hospitalFragment"
+        android:name="com.pratham.chikitse.ui.HospitalFragment"
+        android:label="Hospitals"
+        tools:layout="@layout/fragment_hospital"
+        xmlns:tools="http://schemas.android.com/tools"/>
+
+    <fragment
+        android:id="@+id/audioFragment"
+        android:name="com.pratham.chikitse.ui.AudioFragment"
+        android:label="Audio"
+        tools:layout="@layout/fragment_audio"
+        xmlns:tools="http://schemas.android.com/tools"/>
+
+</navigation>

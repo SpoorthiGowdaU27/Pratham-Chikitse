@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PrathamChikitse" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/red_primary</item>
+        <item name="colorPrimaryDark">@color/red_dark</item>
+        <item name="colorAccent">@color/green_primary</item>
+        <item name="android:statusBarColor">@color/red_primary</item>
+        <item name="android:windowBackground">@color/surface</item>
+    </style>
+</resources>

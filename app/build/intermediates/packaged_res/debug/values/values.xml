@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="amber_dark">#7A5000</color>
+    <color name="amber_light">#FDEBD0</color>
+    <color name="blue_light">#D6EAF8</color>
+    <color name="blue_primary">#1A6FA8</color>
+    <color name="colorAccent">#1A8A5A</color>
+    <color name="colorPrimary">#C0392B</color>
+    <color name="colorPrimaryDark">#96281B</color>
+    <color name="gray_dark">#2C2C2A</color>
+    <color name="gray_light">#F1EFE8</color>
+    <color name="gray_mid">#888780</color>
+    <color name="green_dark">#0F5C39</color>
+    <color name="green_light">#D5F5E3</color>
+    <color name="green_primary">#1A8A5A</color>
+    <color name="red_dark">#96281B</color>
+    <color name="red_light">#FADBD8</color>
+    <color name="red_primary">#C0392B</color>
+    <color name="surface">#FAFAF8</color>
+    <color name="white">#FFFFFF</color>
+    <string name="ambulance_offline">AMBULANCE (OFFLINE SIMULATED)</string>
+    <string name="app_name">Pratham-Chikitse</string>
+    <string name="app_name_kn">ಪ್ರಥಮ ಚಿಕಿತ್ಸೆ</string>
+    <string name="audio_disable">Audio ON — Tap to Disable</string>
+    <string name="audio_enable">Tap to Enable Audio</string>
+    <string name="audio_enabled_en">Audio mode is now enabled</string>
+    <string name="audio_enabled_kn">ಆಡಿಯೋ ಮೋಡ್ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="call_108">108</string>
+    <string name="call_112">112</string>
+    <string name="call_now">CALL NOW</string>
+    <string name="do_label">✓ DO</string>
+    <string name="dont_label">✗ DON\'T</string>
+    <string name="emergency_helpline">Emergency Helpline</string>
+    <string name="nav_audio">Audio</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_hospitals">Hospitals</string>
+    <string name="nearest_centers">NEAREST EMERGENCY CENTERS</string>
+    <string name="search_hint">Search emergency...</string>
+    <string name="steps_complete">✅ Steps Complete!</string>
+    <string name="steps_complete_sub">Call 108 immediately and rush to hospital.</string>
+    <string name="tagline">First Aid Emergency Guide · Offline</string>
+    <style name="Theme.PrathamChikitse" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/red_primary</item>
+        <item name="colorPrimaryDark">@color/red_dark</item>
+        <item name="colorAccent">@color/green_primary</item>
+        <item name="android:statusBarColor">@color/red_primary</item>
+        <item name="android:windowBackground">@color/surface</item>
+    </style>
+</resources>

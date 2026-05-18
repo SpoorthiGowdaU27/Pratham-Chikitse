@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pratham-Chikitse</string>
+    <string name="app_name_kn">ಪ್ರಥಮ ಚಿಕಿತ್ಸೆ</string>
+    <string name="tagline">First Aid Emergency Guide · Offline</string>
+    <string name="emergency_helpline">Emergency Helpline</string>
+    <string name="call_now">CALL NOW</string>
+    <string name="call_108">108</string>
+    <string name="call_112">112</string>
+    <string name="steps_complete">✅ Steps Complete!</string>
+    <string name="steps_complete_sub">Call 108 immediately and rush to hospital.</string>
+    <string name="audio_enable">Tap to Enable Audio</string>
+    <string name="audio_disable">Audio ON — Tap to Disable</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_hospitals">Hospitals</string>
+    <string name="nav_audio">Audio</string>
+    <string name="search_hint">Search emergency...</string>
+    <string name="do_label">✓ DO</string>
+    <string name="dont_label">✗ DON\'T</string>
+    <string name="nearest_centers">NEAREST EMERGENCY CENTERS</string>
+    <string name="ambulance_offline">AMBULANCE (OFFLINE SIMULATED)</string>
+    <string name="audio_enabled_kn">ಆಡಿಯೋ ಮೋಡ್ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="audio_enabled_en">Audio mode is now enabled</string>
+</resources>
